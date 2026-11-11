@@ -1,0 +1,28 @@
+{
+  "raw_rows": 4233,
+  "clean_rows": 4233,
+  "removed_rows": 0,
+  "invalid_value_count_by_ticker": {
+    "SPY": 0,
+    "QQQ": 0,
+    "IWM": 0,
+    "EFA": 0,
+    "EEM": 0
+  },
+  "removed_dates_preview": [],
+  "moves_over_20pct_by_ticker": {
+    "SPY": [],
+    "QQQ": [],
+    "IWM": [],
+    "EFA": [],
+    "EEM": []
+  },
+  "first_clean_date": "2010-01-04",
+  "last_clean_date": "2026-10-30",
+  "note": "Incomplete dates removed (not forward-filled); verify source errors and calendar gaps. Large moves flagged, not removed.",
+  "source": "yfinance / Yahoo Finance",
+  "adjustment": "auto_adjust=True: Close already adjusted",
+  "start_inclusive": "2010-01-01",
+  "end_exclusive": "2026-10-31",
+  "retrieved_at_utc": "2026-11-08T20:55:15.224945+00:00"
+}

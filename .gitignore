@@ -1,0 +1,28 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# IDE settings
+.vscode/
+
+# Local environment variables
+.env
+.env.*
+
+# Temporary files
+*.log
+*.tmp
+
+# Raw market data
+data/raw/
+
